@@ -36,11 +36,136 @@
 
 .navCenter{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    align-items: flex-end;
 }
 
 
 .logo{
     width: 4rem;
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-left: 80px;
+    position: relative;
+}
+nav a{
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+nav a:hover{
+    color: #000;
+}
+nav a::before{
+    content:'';
+    display: block;
+    height: 5px;
+    background-color: #444;
+    position: absolute;
+    top:0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+}
+nav a:hover::before{
+    width:100%;
+}
+.shadow{
+    box-shadow: 10px 10px black;
+}
+#davidBackground{
+    background-color: rgb(210, 180, 140);
+}
+.containerBackground{
+    background-color: blanchedalmond;
+}
+.flipcol{
+    display: flex;
+    flex-direction: row-reverse;
+}
+h1{
+        color: white;
+        text-shadow: 2px 2px 4px #000000;      
+    text-align: center;
+}
+[id^=modal] {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    }
+  input[type=checkbox] {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    }
+  #modal1:target {
+    display: block;
+    display:flex;
+    justify-content: center;
+    }
+#modal2:target {
+    display: block;
+    display:flex;
+    justify-content: center;
+}
+    
+#modal3:target {
+    display: block;
+    display:flex;
+    justify-content: center;
+}
+#modal4:target {
+    display: block;
+     display:flex;
+    justify-content: center;
+}    
+#modal5:target {
+    display: block;
+    display:flex;
+    justify-content: center;
+}    
+    
+  [id^=modal] a {
+    display: flex;
+    justify-content: center;
+  }
+#mkxpic{
+    background-image: url(../images/MortalKombatX_1600.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#overwatchpic{
+    background-image: url(../images/Overwatch-Cover.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#zeldapic{
+    background-image: url(../images/zeldabotw.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#wowpic{
+    background-image: url(../images/WoW.png);
+    background-size: cover;
+    background-position: center;
+}
+#contrapic{
+    background-image: url(../images/Contra.png);
+    background-size: cover;
+    background-position: center;
 }
