@@ -93,6 +93,8 @@ nav a:hover::before{
 #davidBackground{
     background-color: rgb(210, 180, 140);
 }
+
+
 .containerBackground{
     background-color: blanchedalmond;
     max-width: 100% !important;
@@ -173,6 +175,7 @@ h1{
     background-size: cover;
     background-position: center;
 }
+<<<<<<< HEAD
 #linktopastpic{
     background-image: url(../images/linktopast.jpg);
     background-size: cover;
@@ -246,3 +249,36 @@ h1{
 .rowheight .row{
     height: 70vh;
 }
+=======
+
+#darkSoulsPic{
+    background-image: url(../images/DarkSouls1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#ODSTPic{
+    background-image: url(../images/ODSTPic.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#okamiPic{
+    background-image: url(../images/OkamiPic.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#megaManXPic{
+    background-image: url(../images/MegaManXPic.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#metroidZeroMissionPic{
+    background-image: url(../images/MetroidZMPic.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+>>>>>>> f9f54d8987ee9b012f912be6ae38a2c2ccdc59e9
