@@ -40,7 +40,6 @@
     align-items: flex-end;
 }
 
-
 .logo{
     width: 4rem;
 }
@@ -67,7 +66,7 @@ nav li{
     position: relative;
 }
 nav a{
-    color: #444;
+    color: #fff !important;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 400;
