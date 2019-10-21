@@ -49,6 +49,10 @@ header::after{
     display: table;
     clear: both;
 }
+
+.active{
+    color: white;
+}
 nav ul{
     display: flex;
     justify-content: space-around;
@@ -141,6 +145,13 @@ h1{
     display:flex;
     justify-content: center;
 }    
+
+#modal6:target {
+    display: block;
+    display:flex;
+    justify-content: center;
+}    
+
     
   [id^=modal] a {
     display: flex;
