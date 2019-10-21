@@ -1,6 +1,6 @@
 .hero-content{
     position: absolute;
-    bottom: 20px;
+    top: 20px;
     right: 20px;
     color: white;
     font-weight: bolder;
@@ -42,7 +42,7 @@
 
 
 .logo{
-    width: 4rem;
+    width: 5rem;
 }
 header::after{
     content: '';
@@ -75,7 +75,7 @@ nav a::before{
     content:'';
     display: block;
     height: 5px;
-    background-color: #444;
+    background-color: rgb(223, 200, 200);
     position: absolute;
     top:0;
     width: 0%;
@@ -87,11 +87,15 @@ nav a:hover::before{
 .shadow{
     box-shadow: 10px 10px black;
 }
+#indexBackground{
+    background-color: rgb(117, 82, 80);
+}
 #davidBackground{
     background-color: rgb(210, 180, 140);
 }
 .containerBackground{
     background-color: blanchedalmond;
+    max-width: 100% !important;
 }
 .flipcol{
     display: flex;
@@ -168,4 +172,77 @@ h1{
     background-image: url(../images/Contra.png);
     background-size: cover;
     background-position: center;
+}
+#linktopastpic{
+    background-image: url(../images/linktopast.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#castlepic{
+    background-image: url(../images/castle.gif);
+    background-size: cover;
+    background-position: center;
+}
+#ffSpic{
+    background-image: url(../images/ff7_remake_cloud.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#ssxpic{
+    background-image: url(../images/ssx-tricky.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#ssbpic{
+    background-image: url(../images/ssb64.png);
+    background-size: cover;
+    background-position: center;
+}
+#starfoxpic{
+    background-image: url(../images/starfox.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#mariopic{
+    background-image: url(../images/supermario3.png);
+    background-size: cover;
+    background-position: center;
+}
+#tmntpic{
+    background-image: url(../images/TMNT.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#poppic{
+    background-image: url(../images/princeofpersia.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#godpic{
+    background-image: url(../images/Godofwar.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#dkcpic{
+    background-image: url(../images/dkc.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#ccpic{
+    background-image: url(../images/castlecrashers.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#ghpic{
+    background-image: url(../images/guither.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#lolpic{
+    background-image: url(../images/lol2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.rowheight .row{
+    height: 70vh;
 }
