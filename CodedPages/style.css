@@ -122,7 +122,7 @@ h1{
     position: absolute;
     clip: rect(0 0 0 0);
     }
-  #modal1:target {
+#modal1:target {
     display: block;
     display:flex;
     justify-content: center;
@@ -154,6 +154,54 @@ h1{
     display:flex;
     justify-content: center;
 }    
+#modal7:target {
+    display: block;
+    display:flex;
+    justify-content: center;
+    }
+#modal8:target {
+    display: block;
+    display:flex;
+    justify-content: center;
+}
+    
+#modal9:target {
+    display: block;
+    display:flex;
+    justify-content: center;
+}
+#modal10:target {
+    display: block;
+     display:flex;
+    justify-content: center;
+}    
+#modal11:target {
+    display: block;
+    display:flex;
+    justify-content: center;
+}    
+
+#modal12:target {
+    display: block;
+    display:flex;
+    justify-content: center;
+}    
+#modal13:target {
+    display: block;
+     display:flex;
+    justify-content: center;
+}    
+#modal14:target {
+    display: block;
+    display:flex;
+    justify-content: center;
+}    
+
+#modal15:target {
+    display: block;
+    display:flex;
+    justify-content: center;
+}    
 
     
   [id^=modal] a {
@@ -171,7 +219,7 @@ h1{
     background-position: center;
 }
 #zeldapic{
-    background-image: url(../images/zeldabotw.jpg);
+    background-image: url(../images/zbotw.jpg);
     background-size: cover;
     background-position: center;
 }
